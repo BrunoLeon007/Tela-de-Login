@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    font-family:"Poppins", sans-serif;
+}
+
+.login {
+    border-radius: 10px;
+    padding: 35px;
+    gap: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
