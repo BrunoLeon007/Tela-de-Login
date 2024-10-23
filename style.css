@@ -6,29 +6,24 @@ box-sizing: border-box;
 
 body {
     display: flex;
-    justify-content: space-between;
+    
     border-top: -7px;
     font-family:"Poppins", sans-serif;
     }
 
     section {
-        border-style:solid ;
-        border: radius 10px; 
-        padding: 35px;
-        gap: 26px;
-        border-color:  #878787;
-        width:423px;
-        height: 376px;
-       margin-right: 0;
-       position: absolute;
-       top: 200px;
-       right: 50px;
+        width: 50%;
+       display: flex;
+       justify-content: center;
+       align-items:center;
+      
         
        }
 
-    .imagem{
-        width: 687px;
+    .imagem {
+        width: 50%;
         height: 1031px;
+        
     }
 
     .Bem{
@@ -74,31 +69,32 @@ body {
     
     .Senha{  
         font-weight: 400;
-            width: 390px;
-            height: 24px;
+            width: 423px;
+            height: 92px;
             size: 16px;
             line-height: 24px;
-            width: 423px;
-            height: 60px;
             border-radius: 6px;
             margin-top: 18px;
             margin-bottom: 18px;
             gap: 10px;
     }
 
-    .check {
+    .checki {   
         display: flex;
-        justify-content: left;
+        justify-content: space-between;
+       
      }
 
      .esqueceu{
         text-align: right;
         color: #4d4d4d;
      }
-
      .check {
-        text-align: center;
+        display: flex;
      }
+
+    
+
  
         
      
@@ -122,6 +118,33 @@ button {
    color: aliceblue;
    text-decoration: none;
 }
+
+.container {
+   border: solid;
+   border-radius: 10px;
+   padding: 35px;
+   border-color: #848484;
+   gap: 26px;
+}
+
+#Senha {
+border: none;
+outline:none ;
+
+}
+
+.acesso {
+    display: flex;
+}
+
+.Senha {
+    display: flex;
+}
+
+
+
+
+
 
 
 
