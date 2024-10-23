@@ -1,83 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Login</title>
 </head>
-<link rel="stylesheet" href="./style.css">
-
 <body>
-    <div class="imagem">
-        <img src="./img.svg" alt="img-train">
-    </div>
-
-
-    <section class="login">
-       <div class="container">
-        <header>
-            <div class="Bem">
-                <p>Bem-vindo!</p>
-            </div>
-
-            <div class="Faca">
-                <h2>Faça seu login</h2>
-            </div>
-            <div class="Utilize">
-                <p>Utilize as credenciais fornecidas pelo administrador</p>
-            </div>
-        </header>
-
-        <form>
-            <div class="input">
-                <div class="acesso">
-                    <div class="Email">
-                        <label for="E-mail">E-mail</label>
-                        <input id="Email" type="text" placeholder="Entre com seu E-mail">
-                    </div>
-            </div>
-           
-    
-               <div class="input">
-                <div class="Senha">
-                    <label for="Senha">Senha</label>
-                    <input id="Senha" type="text" placeholder="Entre com sua Senha">
-                    <img src="./invisible.svg" alt="invisible">
-            
-               </div>
-                
-               </div>
-            </div>
-           
-          
-           
-            <div class="checki">
-            
-                <div class="check">
-                    <input type="checkbox">
-                    <p>Lembrar-me</p>
-                </div>
-                <div class="esqueceu">
-                    <p>Esqueceu a senha ?</p>
-                </div>
-            </div>
-
-
-
-            <div class="btn">
-                <button> Entrar</button>
-
-            </div>
-        </form>
+       <div class="img">
+        <img src="./img/img.svg" alt="">
        </div>
-       
-    </section>
+    
+        <section class="container">
+            <div class="login">
+                <header>
+                    <h1>Bem-vindo!</h1>
+                    <div class="subtitle">
+                       <h2>Faça seu login</h2>
+                       <p>Utilize as credenciais fornecidas pelo administrador</p>
+                    </div>      
+                </header>
+                <div class="form">
+                    <div class="dados">
+                        <label for="">E-mail</label>
+                        <input type="text" placeholder="Entre com seu E-mail">
+                    </div>
+                    <div class="dados">
+                        <label for="">Senha</label>
+                        <div class="senha">
+                            <input type="text" id="senha" placeholder="Entre com sua Senha">
+                            <img src="./img/senha.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="lembrar">
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <p>Lembrar-me</p>
+                        </div>
+                        <p>Esqueceu a senha ?</p>
+                    </div>
+                    <div class="button">
+                        <button>Entrar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-
-
-
+    
 </body>
-
 </html>
